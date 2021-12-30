@@ -1,0 +1,35 @@
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.box a {
+  padding: 0 5px;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-3 {
+  margin-left: 20px;
+}
+
+.pt-3 {
+  padding-top: 16px;
+}
+
+.justify-content-right {
+  justify-content: right;
+}
+
+.content-wrapper {
+  padding: 0 !important;
+}

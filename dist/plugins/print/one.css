@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'ank';
+  src:  url('ank.ttf')  format('truetype');
+
+}
+.nama{
+font-size: 20px !important;
+line-height: 22px !important;
+}
+
+body{
+
+}
+pre{
+  white-space: pre-line;
+  font-family: "calibri";
+  font-size: 12px;
+}
+.table-print,
+.table-header{
+font-size:12px;
+font-family: calibri;
+width:240px;
+border:none;
+border-collapse:inherit;
+border-spacing:0px;
+margin:0px;
+}
+.table-header{
+border:none;
+text-align:center;
+margin-top:5px;
+}
+.table-header td{
+padding:0px;
+text-align:center;
+vertical-align: top;
+}
+.table-print th{
+text-align:left;vertical-align: top;
+font-weight:bold;
+padding:0px 3px;
+
+border-bottom:none;
+}
+.table-print td{
+border-top:none;
+padding:2px 0px;vertical-align: top;
+}
+.single-border td{
+  border-bottom:solid 1px #000;
+  padding-bottom:5px;
+ }
+div.dotted-border, .dotted-border td{
+  border-bottom:dotted 1px #000;
+ }
+
+div.solid-border, .solid-border td{
+  border-bottom:solid 1px #000;
+ }
+.siv td{
+padding: 0px;
+margin: 0px;
+vertical-align: middle;
+text-align:right;
+}
+
+@media print {
+  @page{
+    margin:0px 0px 0px 1px ;
+    padding: 0px;
+
+  }
+  .table-print td,
+  .table-header td{
+    margin: 0px;
+    padding: 0px;
+    line-height: 12px;
+  }
+  .siv.solid td{
+    padding: 1px 0px;
+  }
+  .terakhir{
+    page-break-after: always;
+  }
+}
+
+
+@media print {
+           tr.spa td {
+              line-height: 0px;
+      height: 0px;
+      padding: 0px;
+      font-size: 0px;
+  }
+
+}
+
+tr.spa td {
+height: 0px;
+padding: 0px;
+font-size: 0px;
+}
+tr.spas td {
+padding: 0px;
+line-height: 5px;
+}
